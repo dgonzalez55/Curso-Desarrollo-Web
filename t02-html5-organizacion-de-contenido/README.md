@@ -1,0 +1,8 @@
+# T02: HTML5 - Organización de contenido
+
+En este tema primero se introducen los conceptos de elementos de tipo _block_ y de tipo _inline_ que explican las diferencias en la renderización de las distintas etiquetas estructurales y de contenido. A continuación se presentan las principales etiquetas semánticas que HTML5 nos brinda a fin de estructurar el contenido de las páginas web de manera conveniente. El uso de estas etiquetas mejora el procesamiento automatizado de los documentos. Así pues, cuando por ejemplo se detecta una etiqueta como `<`<mark style="color:green;">**`nav`**</mark>`>`, automáticamente se deduce que se incluye contenido relacionado con la navegación de la página, al igual que una etiqueta `<`<mark style="color:green;">**`header`**</mark>`>` indica contenido introductorio. Además, con estas etiquetas se mejora la accesibilidad de las páginas web dado que las tecnologías de asistencia dependen de la estructura del documento para presentar información a los usuarios. Si un lector de pantalla puede determinar correctamente la estructura de un documento, lo leerá con mayor fluidez y evitará información irrelevante o contenido repetido. Por último, no olvidemos que facilitan el trabajo de los desarrolladores al proveer de un contexto adecuado, agilizando pues las labores de ampliación y mantenimiento de las webs.\
+El tema concluye relacionando todo lo visto con la importancia del uso de los atributos globales.
+
+{% hint style="info" %}
+Siempre que tengas dudas sobre el significado, uso o finalidad de una determinada etiqueta, consulta antes toda la información disponible en la especificación oficial: [https://www.w3.org/TR/html52/](https://www.w3.org/TR/html52/)
+{% endhint %}
