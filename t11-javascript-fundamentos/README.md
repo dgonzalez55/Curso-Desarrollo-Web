@@ -1,8 +1,8 @@
-# T11: JS - Fundamentos
+# T11: JavaScript - Fundamentos
 
 ## Tabla de Contenidos
 
-#### **🌐** [**Capítulo 1: ¿Qué es JavaScript?**](capitulo-1-que-es-javascript.md)
+#### 📖 [**Capítulo 1: ¿Qué es JavaScript?**](capitulo-1-que-es-javascript.md)
 
 * 1.1. Introducción: El lenguaje de la interactividad web
 * 1.2. Historia y evolución de JavaScript
@@ -11,7 +11,7 @@
 * 1.5. ¿Por qué aprender JavaScript?
 * 1.6. JavaScript vs. Otros lenguajes
 
-#### **🔗** [**Capítulo 2: La Trinidad del Desarrollo Web Frontend**](capitulo-2-la-trinidad-del-desarrollo-web-frontend.md)
+#### ⚛️ [**Capítulo 2: La Trinidad del Desarrollo Web Frontend**](capitulo-2-la-trinidad-del-desarrollo-web-frontend.md)
 
 * 2.1. HTML, CSS y JavaScript: Roles complementarios
 * 2.2. Integración de JavaScript con HTML
@@ -19,7 +19,7 @@
 * 2.4. El flujo de carga de una página web
 * 2.5. Ejemplo integrado: Una aplicación web simple
 
-#### **🏃** [**Capítulo 3: Ejecución en el Navegador y Motores JavaScript**](capitulo-3-ejecucion-en-el-navegador-y-motores-javascript.md)
+#### 🚀 [**Capítulo 3: Ejecución en el Navegador y Motores JavaScript**](capitulo-3-ejecucion-en-el-navegador-y-motores-javascript.md)
 
 * 3.1. Cómo ejecuta JavaScript el navegador
 * 3.2. Motores JavaScript de los navegadores principales
