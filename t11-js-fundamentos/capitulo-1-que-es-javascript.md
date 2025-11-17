@@ -27,15 +27,17 @@ JavaScript nació de una necesidad urgente y fue desarrollado a una velocidad so
 
 Lo extraordinario es que Eich completó la tarea en **tan solo 10 días**. El lenguaje fue inicialmente llamado **Mocha**, luego **LiveScript**, y finalmente **JavaScript** en diciembre de 1995. La estrategia del cambio de nombre fue marketing puro: en ese momento, Java estaba ganando popularidad, y asociar el nombre al de Java (a pesar de ser lenguajes fundamentalmente diferentes) ayudó a su adopción inicial.
 
-```javascript
-// Primer ejemplo de JavaScript (1995)
-// Validar un formulario en el navegador
+```html
+<!-- Ejemplo de validación JS clásico (1995, adaptado): -->
 <script>
 function validarFormulario() {
     alert("¡Tu formulario se validó!");
 }
 </script>
+<button onclick="validarFormulario()">Enviar</button>
 ```
+
+Actualmente se prefiere colocar el código JS en ficheros aparte y emplear módulos.
 
 **1996** fue un año crucial: Microsoft lanzó **JScript** para Internet Explorer, su propia implementación de JavaScript. Aunque esto creó una fragmentación inicial (el código tenía que escribirse considerando las diferencias entre navegadores), finalmente empujó a la estandarización.
 
@@ -72,13 +74,24 @@ Después de un período de casi 6 años sin una actualización importante, algo 
 
 Después de ES2015, el comité TC39 adoptó un modelo de lanzamiento anual. Cada junio se publica una nueva versión (ES2016, ES2017, ES2018, etc.), lo que permite que nuevas características se integren regularmente sin esperar años.
 
-```javascript
-// ES2015: Ejemplo moderno
-const saludar = (nombre) => {
-    return `Hola, ${nombre}`;
-};
+**Ejemplo moderno (ES2015+):**
 
+```javascript
+// Módulos ECMAScript, estándar en 2025
+// archivo: utilidades.js
+export function saludar(nombre) {
+    return `Hola, ${nombre}`;
+}
+
+// archivo: app.js
+import { saludar } from './utilidades.js';
 console.log(saludar("JavaScript"));
+```
+
+Y su inclusión en HTML:
+
+```html
+<script type="module" src="app.js"></script>
 ```
 
 **2025** es la versión más reciente del estándar, pero prácticamente todos los navegadores modernos ya han adoptado la mayoría de las características de ES2015 en adelante.
@@ -122,7 +135,7 @@ variable = { nombre: "JS" }; // Objeto
 console.log(typeof variable); // "object"
 ```
 
-Este tipado dinámico hace JavaScript muy flexible, pero también requiere disciplina para evitar bugs. Con el tiempo, herramientas como **TypeScript** han surgido para añadir tipado estático opcional.
+Este tipado dinámico hace JavaScript muy flexible, pero también requiere disciplina para evitar bugs. Con el tiempo, herramientas como **TypeScript** y las **type annotations** nativas de ECMAScript (en fase experimental) proveen tipado opcional.
 
 #### **Orientado a Objetos (Basado en Prototipos)**
 
@@ -160,7 +173,9 @@ const juan = new Persona("Juan");
 console.log(juan.saludar()); // "Hola, soy Juan"
 ```
 
-#### **Asíncrono y Basado en Eventos**
+Ambos modelos coexisten, siendo las clases más familiares a quien proviene de otros lenguajes de POO.
+
+#### **Asíncrono y basado en Eventos**
 
 JavaScript es fundamentalmente **asíncrono**. Puede ejecutar múltiples operaciones sin bloquear el hilo principal, lo que es esencial para aplicaciones web responsivas:
 
@@ -230,6 +245,8 @@ console.log(miContador()); // 3
 
 ### 1.4. JavaScript en la era moderna
 
+El “JavaScript moderno” se escribe casi siempre como **módulo** (`type="module"`, `import`/`export`) y adopta herramientas como TypeScript para tipado opcional.&#x20;
+
 Aunque JavaScript puro (vanilla JS) es potente, en la industria moderna se utilizan principalmente **frameworks y librerías** que facilitan el desarrollo:
 
 #### **Frameworks y Librerías Principales**
@@ -281,27 +298,17 @@ export default {
 
 ### 1.6. JavaScript vs. Otros lenguajes
 
-A pesar de la similitud en los nombres, JavaScript y Java son lenguajes completamente diferentes, cada uno con sus fortalezas:
+| Característica    | JavaScript              | Java                  | Python                |
+| ----------------- | ----------------------- | --------------------- | --------------------- |
+| **Tipado**        | Dinámico (+TS opcional) | Estático              | Dinámico/fuerte       |
+| **Compilación**   | JIT/interpretado        | Compilado a bytecode  | Interpretado/JIT      |
+| **Uso principal** | Web/Apps/Cloud          | Apps empresariales    | Ciencia datos/web     |
+| **Síntaxis**      | Moderna, flexible       | Rígida y estructurada | Muy legible           |
+| **Paradigma**     | Prototipos/Clases       | Clases                | Clases/Multiparadigma |
+| **Multihilo**     | Event loop, workers     | Sí                    | No nativo             |
 
-| Característica   | JavaScript                     | Java                          |
-| ---------------- | ------------------------------ | ----------------------------- |
-| **Tipado**       | Dinámico y débil               | Estático y fuerte             |
-| **Compilación**  | Interpretado (con JIT)         | Compilado a bytecode          |
-| **Ejecución**    | Navegador / Node.js            | JVM (cualquier plataforma)    |
-| **Sintaxis**     | Flexible y permisiva           | Formal y estructurada         |
-| **Orientación**  | Basada en prototipos           | Basada en clases              |
-| **Memoria**      | Garbage collection automático  | Garbage collection automático |
-| **Concurrencia** | Single-threaded con event loop | Multi-threaded                |
-| **Caso de uso**  | Web y scripting                | Aplicaciones empresariales    |
-
-**Comparación con Python:**
-
-| Aspecto           | JavaScript           | Python                           |
-| ----------------- | -------------------- | -------------------------------- |
-| **Tipado**        | Dinámico y débil     | Dinámico y fuerte                |
-| **Sintaxis**      | Compleja, C-like     | Simple y legible                 |
-| **Uso principal** | Web frontend/backend | Ciencia de datos, automatización |
-| **Rendimiento**   | Muy rápido (con JIT) | Más lento                        |
+**Nota:**\
+En 2025, la mayor parte de los proyectos JavaScript industrializados combinan JavaScript y TypeScript. El futuro del lenguaje incluye “type annotations” nativas y un ecosistema altamente interoperable.
 
 ***
 
