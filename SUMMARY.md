@@ -79,3 +79,7 @@
   * [Capítulo 3: Variables y Declaración](t12-javascript-el-lenguaje-de-programacion/capitulo-3-variables-y-declaracion.md)
   * [Capítulo 4: Entrada de Datos y Console](t12-javascript-el-lenguaje-de-programacion/capitulo-4-entrada-de-datos-y-console.md)
   * [Capítulo 5: Sentencias Condicionales](t12-javascript-el-lenguaje-de-programacion/capitulo-5-sentencias-condicionales.md)
+  * [Capítulo 6: Bucles e Iteración](t12-javascript-el-lenguaje-de-programacion/capitulo-6-bucles-e-iteracion.md)
+  * [Capítulo 7: Introducción a Funciones](t12-javascript-el-lenguaje-de-programacion/capitulo-7-introduccion-a-funciones.md)
+  * [Capítulo 8: Cadenas de Texto](t12-javascript-el-lenguaje-de-programacion/capitulo-8-cadenas-de-texto.md)
+  * [Capítulo 9: Números y Aritmética](t12-javascript-el-lenguaje-de-programacion/capitulo-9-numeros-y-aritmetica.md)

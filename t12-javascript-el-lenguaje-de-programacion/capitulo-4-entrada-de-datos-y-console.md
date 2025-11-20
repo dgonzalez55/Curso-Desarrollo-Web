@@ -65,6 +65,8 @@ function obtenerEdad() {
 }
 ```
 
+***
+
 ### 4.2. `confirm()`: Confirmación Binaria del Usuario
 
 `confirm()` abre un diálogo con dos opciones: Aceptar (true) o Cancelar (false).
@@ -97,6 +99,8 @@ if (continuar) {
     console.log("Operación cancelada");
 }
 ```
+
+***
 
 ### 4.3. `alert()`: Notificación al Usuario
 
@@ -139,6 +143,8 @@ function procesarUsuario() {
 * No personalizables (se ven iguales en todos los navegadores)
 * En producción, se prefieren interfaces HTML personalizadas
 
+***
+
 ### 4.4. `console` como Herramienta de Depuración
 
 La consola del navegador es tu mejor aliada para entender qué hace tu código.
@@ -147,6 +153,8 @@ La consola del navegador es tu mejor aliada para entender qué hace tu código.
 // Acceder a la consola: F12 o Ctrl+Shift+I (Windows/Linux) o Cmd+Option+I (Mac)
 // Luego ir a la pestaña "Console"
 ```
+
+***
 
 ### 4.5. `console.log()`, `console.warn()`, `console.error()`
 
@@ -181,6 +189,8 @@ Muestra errores (en rojo):
 console.error("Error fatal:");
 console.error(new Error("Algo salió mal"));
 ```
+
+***
 
 ### 4.6. Formateo de Mensajes en Consola
 
@@ -217,6 +227,8 @@ let edad = 30;
 console.log(`${nombre} tiene ${edad} años`);
 console.log(`Usuario: ${nombre} (${typeof nombre})`);
 ```
+
+***
 
 ### 4.7. `console.table()` y Otros Métodos Útiles
 
@@ -309,6 +321,8 @@ console.clear();
 // La consola queda vacía
 ```
 
+***
+
 ### 4.8. Buenas Prácticas con `console`
 
 #### **No dejar `console.log()` en producción**
@@ -355,6 +369,8 @@ console.groupEnd();
 console.table({ a, b, c });
 ```
 
+***
+
 ### Resumen del Capítulo
 
 Las funciones de entrada de datos (`prompt`, `confirm`, `alert`) y la consola son herramientas fundamentales para interactuar con el usuario y depurar código. Aunque en producción se prefieren interfaces HTML personalizadas, estas herramientas son excelentes para prototipado y aprendizaje.
@@ -378,3 +394,5 @@ Las funciones de entrada de datos (`prompt`, `confirm`, `alert`) y la consola so
 4. Explica cómo debuggearías un bucle que no funciona correctamente.
 5. Escribe una función que pida datos al usuario y los valide usando `prompt()`.
 6. ¿Por qué las funciones `alert()`, `prompt()` y `confirm()` son problemáticas en producción?
+
+***

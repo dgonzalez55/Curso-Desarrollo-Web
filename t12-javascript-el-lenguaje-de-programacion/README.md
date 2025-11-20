@@ -51,9 +51,9 @@
 * 5.5. Sentencia switch-case: selección por casos
 * 5.6. El operador ternario: condición en línea
 * 5.7. Condiciones complejas y operadores lógicos
-* 5.8. Casos prácticos y patrones comunes
+* 5.8. Casos prácticos avanzados
 
-#### **🔁 Capítulo 6: Bucles e Iteración**
+#### **🔁** [**Capítulo 6: Bucles e Iteración**](capitulo-6-bucles-e-iteracion.md)
 
 * 6.1. ¿Cuándo necesitamos repetir código?
 * 6.2. Bucle while: repetición condicional
@@ -64,7 +64,7 @@
 * 6.7. Bucle for-of: iteración sobre valores (ES6+)
 * 6.8. Casos prácticos avanzados
 
-#### **🧰 Capítulo 7: Introducción a Funciones**
+#### **🧰** [**Capítulo 7: Introducción a Funciones**](capitulo-7-introduccion-a-funciones.md)
 
 * 7.1. ¿Qué es una función?
 * 7.2. Declaración de funciones: function declaration
@@ -72,21 +72,21 @@
 * 7.4. Arrow functions: sintaxis moderna (ES6+)
 * 7.5. Parámetros, argumentos y valores por defecto
 * 7.6. La sentencia return
-* 7.7. Scope y closures (introducción)
+* 7.7. Scope y closures
 * 7.8. Recursión: funciones que se llaman a sí mismas
 
-#### **📦 Capítulo 8: Cadenas de Texto (Strings)**
+#### **📦** [**Capítulo 8: Cadenas de Texto**](capitulo-8-cadenas-de-texto.md)
 
-* 8.1. Creación de cadenas: comillas simples, dobles y template literals
+* 8.1. Creación de cadenas: comillas simples, dobles y template strings
 * 8.2. Propiedades: length
-* 8.3. Métodos de lectura: charAt(), charCodeAt(), indexOf()
-* 8.4. Métodos de transformación: toUpperCase(), toLowerCase(), trim()
-* 8.5. Métodos de búsqueda: includes(), startsWith(), endsWith()
-* 8.6. Métodos de extracción: slice(), substring(), substr()
-* 8.7. Métodos de reemplazo: replace(), replaceAll()
-* 8.8. Template literals y interpolación con ${}
+* 8.3. Métodos de lectura
+* 8.4. Métodos de transformación
+* 8.5. Métodos de búsqueda
+* 8.6. Métodos de extracción
+* 8.7. Métodos de reemplazo
+* 8.8. Template strings avanzados
 
-#### **🎯 Capítulo 9: Números y Aritmética**
+#### **🎯** [**Capítulo 9: Números y Aritmética**](capitulo-9-numeros-y-aritmetica.md)
 
 * 9.1. Representación de números en JavaScript
 * 9.2. Enteros y decimales: precisión de punto flotante
