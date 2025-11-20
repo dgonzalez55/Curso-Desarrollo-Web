@@ -172,4 +172,8 @@ Los conceptos que has dominado aquí son **universales**: el tipado dinámico, l
 
 ***
 
-**¡Felicidades por completar Tema 12!** El camino hacia la maestría en JavaScript continúa. ¡Adelante hacia los objetos, arrays y más allá! 🚀
+**¡Felicidades por completar Tema 12!** El camino hacia la maestría en JavaScript continúa.
+
+**Próximo paso: Tema 13 - Arrays y Objetos Avanzados** donde dominarás técnicas funcionales, spread operator, destructuring y JSON.
+
+**¡Adelante! 🚀**
