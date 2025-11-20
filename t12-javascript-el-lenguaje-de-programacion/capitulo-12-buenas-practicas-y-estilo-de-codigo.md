@@ -239,6 +239,16 @@ function calcularCosto(tipo, monto) {
 }
 ```
 
+#### **L, I, D: Principios Avanzados (Próximos Temas)**
+
+Los tres principios restantes de SOLID requieren conceptos de **Programación Orientada a Objetos** que se estudiarán en detalle más adelante:
+
+* **L (Liskov Substitution Principle)**: Los objetos de clases derivadas deben poder sustituir a objetos de sus clases base. Se trabaja en profundidad en temas de herencia y polimorfismo.
+* **I (Interface Segregation Principle)**: Los clientes no deben depender de interfaces que no usan. Se estudia en temas de arquitectura de módulos y TypeScript.
+* **D (Dependency Inversion Principle)**: Las dependencias deben invertirse desde implementaciones concretas hacia abstracciones. Se desarrolla en temas de inyección de dependencias y patrones de diseño.
+
+**Para ahora**: Enfócate en dominar S y O. Estos principios te enseñarán a escribir funciones más limpias, modulares y fáciles de mantener, que es exactamente lo que necesitas en este nivel.
+
 ***
 
 ### 12.8. Lectura de Código de Calidad
