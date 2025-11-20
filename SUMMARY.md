@@ -83,3 +83,7 @@
   * [Capítulo 7: Introducción a Funciones](t12-javascript-el-lenguaje-de-programacion/capitulo-7-introduccion-a-funciones.md)
   * [Capítulo 8: Cadenas de Texto](t12-javascript-el-lenguaje-de-programacion/capitulo-8-cadenas-de-texto.md)
   * [Capítulo 9: Números y Aritmética](t12-javascript-el-lenguaje-de-programacion/capitulo-9-numeros-y-aritmetica.md)
+  * [Capítulo 10: Introducción a Objetos y Arrays](t12-javascript-el-lenguaje-de-programacion/capitulo-10-introduccion-a-objetos-y-arrays.md)
+  * [Capítulo 11: Manejo de Errores Básicos](t12-javascript-el-lenguaje-de-programacion/capitulo-11-manejo-de-errores-basicos.md)
+  * [Capítulo 12: Buenas Prácticas y Estilo de Código](t12-javascript-el-lenguaje-de-programacion/capitulo-12-buenas-practicas-y-estilo-de-codigo.md)
+  * [Resumen Final](t12-javascript-el-lenguaje-de-programacion/resumen-final.md)

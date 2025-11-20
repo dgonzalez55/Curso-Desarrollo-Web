@@ -90,40 +90,40 @@
 
 * 9.1. Representación de números en JavaScript
 * 9.2. Enteros y decimales: precisión de punto flotante
-* 9.3. NaN (Not-a-Number) y Infinity
-* 9.4. Métodos de conversión: parseInt(), parseFloat(), Number()
-* 9.5. Métodos de redondeo: Math.round(), Math.floor(), Math.ceil()
+* 9.3. NaN (Not-a-Number) e Infinity
+* 9.4. Métodos de conversión
+* 9.5. Métodos de redondeo
 * 9.6. Métodos de la clase Math
 * 9.7. Generación de números aleatorios
 * 9.8. Números grandes: BigInt (ES2020+)
 
-#### **🪟 Capítulo 10: Introducción a Objetos y Arrays**
+#### **🪟** [**Capítulo 10: Introducción a Objetos y Arrays**](capitulo-10-introduccion-a-objetos-y-arrays.md)
 
 * 10.1. Objetos en JavaScript: estructura clave-valor
 * 10.2. Creación de objetos: sintaxis literal
-* 10.3. Acceso a propiedades: notación punto y corchetes
+* 10.3. Acceso a propiedades
 * 10.4. Adición y modificación de propiedades
 * 10.5. Arrays: creación y acceso a elementos
-* 10.6. Métodos básicos de arrays: push(), pop(), shift(), unshift()
-* 10.7. Iteración sobre arrays: for, forEach()
+* 10.6. Métodos básicos de arrays
+* 10.7. Iteración sobre arrays
 * 10.8. Diferencias entre objetos y arrays
 
-#### **⚠️ Capítulo 11: Manejo de Errores Básicos**
+#### **⚠️** [**Capítulo 11: Manejo de Errores Básicos**](capitulo-11-manejo-de-errores-basicos.md)
 
 * 11.1. ¿Qué son los errores en JavaScript?
-* 11.2. Tipos de errores comunes: SyntaxError, ReferenceError, TypeError
+* 11.2. Tipos de errores comunes
 * 11.3. Estructura try-catch: captura de errores
 * 11.4. Bloque finally: código que siempre se ejecuta
 * 11.5. Lanzar errores: throw
 * 11.6. Errores de validación en entrada de datos
 * 11.7. Buenas prácticas de manejo de errores
-* 11.8. Debugging con herramientas del navegador
+* 11.8. Depuración con herramientas del navegador
 
-#### **🎨 Capítulo 12: Buenas Prácticas y Estilo de Código**
+#### **🎨** [**Capítulo 12: Buenas Prácticas y Estilo de Código**](capitulo-12-buenas-practicas-y-estilo-de-codigo.md)
 
 * 12.1. Importancia del estilo consistente
-* 12.2. Naming conventions: camelCase, snake\_case
-* 12.3. Comentarios: explicar el porqué, no el qué
+* 12.2. Naming conventions: camelCase
+* 12.3. Comentarios: explicar el porqué
 * 12.4. Indentación y espaciado
 * 12.5. Evitar antipatrones comunes
 * 12.6. Herramientas: ESLint y Prettier
