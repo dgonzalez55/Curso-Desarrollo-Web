@@ -17,22 +17,22 @@
 
 * 2.1. push(), pop(), shift(), unshift()
 * 2.2. splice(): insertar y eliminar elementos
-* 2.3. slice(): extraer porciones sin mutar
+* 2.3. slice(): extraer porciones sin modificar
 * 2.4. concat(): combinar arrays
 * 2.5. join() y split(): convertir entre arrays y strings
 * 2.6. reverse() y sort()
 * 2.7. includes(): buscar existencia
 * 2.8. flat() y flatMap(): arrays anidados
 
-#### **🎯 Capítulo 3: Spread Operator y Destructuring de Arrays**
+#### **🎯** [**Capítulo 3: Spread Operator y Destructuración de Arrays**](capitulo-3-spread-operator-y-destructuracion-de-arrays.md)
 
 * 3.1. Spread operator (...): expansión de arrays
 * 3.2. Copiar arrays: spread vs slice
 * 3.3. Combinar arrays con spread
-* 3.4. Destructuring básico
-* 3.5. Destructuring avanzado
-* 3.6. Rest parameters en destructuring
-* 3.7. Valores por defecto en destructuring
+* 3.4. Destructuración básica
+* 3.5. Destructuración avanzada
+* 3.6. Rest parameters en destructuración
+* 3.7. Valores por defecto en destructuración
 * 3.8. Intercambio de variables
 
 #### **🏗️ Capítulo 4: Métodos de Objetos**

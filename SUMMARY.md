@@ -90,3 +90,4 @@
 * [T13: JavaScript - Arrays y Objetos Avanzados](t13-javascript-arrays-y-objetos-avanzados/README.md)
   * [Capítulo 1: Métodos de Arrays - Iteración y Transformación](t13-javascript-arrays-y-objetos-avanzados/capitulo-1-metodos-de-arrays-iteracion-y-transformacion.md)
   * [Capítulo 2: Métodos de Arrays - Manipulación](t13-javascript-arrays-y-objetos-avanzados/capitulo-2-metodos-de-arrays-manipulacion.md)
+  * [Capítulo 3: Spread Operator y Destructuración de Arrays](t13-javascript-arrays-y-objetos-avanzados/capitulo-3-spread-operator-y-destructuracion-de-arrays.md)
