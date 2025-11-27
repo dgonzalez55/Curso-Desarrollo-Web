@@ -41,6 +41,7 @@
 * 5.4. Inserción precisa: `insertAdjacentHTML` y `insertAdjacentElement`
 * 5.5. Eliminación de nodos: `remove()` y `removeChild()`
 * 5.6. `DocumentFragment`: Renderizado eficiente
+* 5.7. Patrón práctico: Generar listas desde Arrays
 
 ### **🧭** [**Capítulo 6: Navegación por el DOM (Traversing)**](capitulo-6-navegacion-por-el-dom-traversing.md)
 
@@ -48,6 +49,7 @@
 * 6.2. Navegar hacia los hijos: `children`, `firstElementChild`, `lastElementChild`
 * 6.3. Navegar entre hermanos: `nextElementSibling`, `previousElementSibling`
 * 6.4. Diferencia entre Elementos y Nodos (texto/comentarios)
+* 6.5. Patrón práctico: Recorrer un árbol recursivamente
 
 ### **⚡** [**Capítulo 7: Introducción a los Eventos**](capitulo-7-introduccion-a-los-eventos.md)
 
@@ -56,6 +58,7 @@
 * 7.3. El objeto `Event`: propiedades comunes (`target`, `type`)
 * 7.4. Eliminar eventos: `removeEventListener`
 * 7.5. El problema de `this` en los eventos y Arrow Functions
+* 7.6. Eventos inline (NO recomendado)
 
 ### **🖱️** [**Capítulo 8: Eventos de Ratón y Teclado**](capitulo-8-eventos-de-raton-y-teclado.md)
 
@@ -64,6 +67,9 @@
 * 8.3. Teclado: `keydown`, `keyup` (y el obsoleto `keypress`)
 * 8.4. Propiedades de teclado: `key` vs `code`
 * 8.5. Modificadores: `ctrlKey`, `shiftKey`, `altKey`
+* 8.6. Patrón práctico: Detectar Enter en un input
+* 8.7. Propiedades adicionales de eventos de ratón
+* 8.8. Patrón práctico: Detectar botón del ratón
 
 ### **📝** [**Capítulo 9: Formularios y sus Eventos**](capitulo-9-formularios-y-sus-eventos.md)
 
@@ -72,23 +78,27 @@
 * 9.3. `event.preventDefault()`: Controlar el envío
 * 9.4. Lectura de valores (`value`, `checked`)
 * 9.5. Objeto `FormData`: Procesamiento moderno de formularios
+* 9.6. Patrón práctico: Validación en tiempo real
 
 ### **🌊** [**Capítulo 10: El Flujo de Eventos (Propagation)**](capitulo-10-el-flujo-de-eventos-propagation.md)
 
 * 10.1. Las 3 fases: Capturing, Target, Bubbling
 * 10.2. Entendiendo el Bubbling (Burbujeo)
 * 10.3. `stopPropagation()` y `stopImmediatePropagation()`
-* 10.4. **Event Delegation**: El patrón de oro para rendimiento
+* 10.4. Event Delegation: El patrón de oro para rendimiento
 * 10.5. Casos prácticos de delegación
+* 10.6 Captura (Capturing Phase) - Uso avanzado
 
-### **🌍 Capítulo 11: El BOM y Web APIs Básicas**
+### **🌍** [**Capítulo 11: El BOM y Web APIs Básicas**](capitulo-11-el-bom-y-web-apis-basicas.md)
 
 * 11.1. El objeto `window` y dimensiones del viewport
 * 11.2. `localStorage` y `sessionStorage` (Repaso práctico)
 * 11.3. Timers: `setTimeout`, `setInterval` y `requestAnimationFrame`
-* 11.4. Objeto `location` (URL) y `history`
+* 11.4. Objeto `location`: trabajar con URLs
+* 11.5. Objeto `history`: navegación del historial
+* 11.6. Patrón práctico: tema persistente
 
-### **🚀 Capítulo 12: Buenas Prácticas y Proyecto Integrador**
+### **🚀** [**Capítulo 12: Buenas Prácticas y Proyecto Integrador**](capitulo-12-buenas-practicas-y-proyecto-integrador.md)
 
 * 12.1. Minimizar Reflow y Repaint (Rendimiento)
 * 12.2. Separación de responsabilidades (HTML/CSS/JS)
