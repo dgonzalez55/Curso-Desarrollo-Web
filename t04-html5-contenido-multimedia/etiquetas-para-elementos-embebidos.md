@@ -18,8 +18,7 @@
 
 {% embed url="https://cdpn.io/dgonzalez55/fullpage/wvwMgmZ?anon=true&view=fullpage" %}
 
-Los **Iframes** se utilizan para presentar contenido o recursos externos a la propia web. El tipo de su contenido no se limita a ofrecer simples ventanas a otras web, sino que va desde poder incrustar vídeos de Youtube, a embeber visores para ficheros PDF o mapas de Google Maps. No obstante los **iframes** presentan un problema de seguridad y es que un usuario malintencionado los podría utilizar para suplantar la identidad de un sitio web legítimo embebiendo la página al completo, razón por la que muchos portales bloquean su uso. Este es el caso de Google que no permite **iframe** alguno para embeber su página web.\
-
+Los **Iframes** se utilizan para presentar contenido o recursos externos a la propia web. El tipo de su contenido no se limita a ofrecer simples ventanas a otras web, sino que va desde poder incrustar vídeos de Youtube, a embeber visores para ficheros PDF o mapas de Google Maps. No obstante los **iframes** presentan un problema de seguridad y es que un usuario malintencionado los podría utilizar para suplantar la identidad de un sitio web legítimo embebiendo la página al completo, razón por la que muchos portales bloquean su uso. Este es el caso de Google que no permite **iframe** alguno para embeber su página web.<br>
 
 Existen múltiples e importantes atributos que atañen a los iframes, pero nos centraremos en los más importantes:
 
@@ -43,4 +42,4 @@ Los aspectos claves en relación a los iframes se pueden resumir en:
 * No se tiene control sobre el contenido que presenta el _iframe_ lo que puede repercutir en una brecha de seguridad posteriormente.
 * Penalizan el SEO de la web.
 
-\
+<br>

@@ -1,7 +1,6 @@
 # Pseudoelementos
 
-Las pseudoelementos sirven para establecer estilos para determinadas partes de los elementos seleccionados, como por ejemplo dar un estilo específico a la primera letra o línea de un elemento, insertar un contenido previo o posterior al contenido del elemento seleccionado, etc.\
-
+Las pseudoelementos sirven para establecer estilos para determinadas partes de los elementos seleccionados, como por ejemplo dar un estilo específico a la primera letra o línea de un elemento, insertar un contenido previo o posterior al contenido del elemento seleccionado, etc.<br>
 
 La sintaxi de un pseudoelemento es:
 

@@ -1,7 +1,6 @@
 # Atributos globales
 
-Aunque la mayoría de los elementos estructurales tienen un propósito implícito que se refleja en sus nombres, esto no significa que se deban usar solo una vez en el mismo documento. Por ejemplo, algunos elementos como `<`<mark style="color:green;">**`section`**</mark>`>` y `<`<mark style="color:green;">**`aside`**</mark>`>` se pueden utilizar muchas veces para representar diferentes partes de la estructura, y otros como `<`<mark style="color:green;">**`div`**</mark>`>` son implementados de forma repetida para separar contenido dentro de secciones. Por esta razón, HTML define atributos globales que podemos usar para asignar identificadores personalizados a cada elemento. La asignación de estos atributos será crucial para las labores de definición de estilos mediante las reglas CSS.\
-
+Aunque la mayoría de los elementos estructurales tienen un propósito implícito que se refleja en sus nombres, esto no significa que se deban usar solo una vez en el mismo documento. Por ejemplo, algunos elementos como `<`<mark style="color:green;">**`section`**</mark>`>` y `<`<mark style="color:green;">**`aside`**</mark>`>` se pueden utilizar muchas veces para representar diferentes partes de la estructura, y otros como `<`<mark style="color:green;">**`div`**</mark>`>` son implementados de forma repetida para separar contenido dentro de secciones. Por esta razón, HTML define atributos globales que podemos usar para asignar identificadores personalizados a cada elemento. La asignación de estos atributos será crucial para las labores de definición de estilos mediante las reglas CSS.<br>
 
 Veamos los atributos globales básicos:
 

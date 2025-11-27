@@ -77,8 +77,7 @@ border-left-width: size;
 ### Método abreviado: <mark style="color:blue;">**border**</mark>
 
 La propiedad <mark style="color:blue;">**border**</mark> es un método abreviado que permite establecer el **grosor**, **estilo** y **color** del borde del elemento seleccionado mediante una única asignación.\
-El grosor se corresponde con la propiedad <mark style="color:blue;">**`border-width`**</mark>, el estilo con la propiedad <mark style="color:blue;">**`border-style`**</mark> y el color con la propiedad <mark style="color:blue;">**`border-color`**</mark>.\
-
+El grosor se corresponde con la propiedad <mark style="color:blue;">**`border-width`**</mark>, el estilo con la propiedad <mark style="color:blue;">**`border-style`**</mark> y el color con la propiedad <mark style="color:blue;">**`border-color`**</mark>.<br>
 
 Su sintaxis es la siguiente:
 
@@ -116,8 +115,7 @@ p span {
 
 ### Esquinas redondeadas
 
-La propiedad <mark style="color:blue;">**`border-radius`**</mark> especifica el grado de redondez de las esquinas del borde a mostrar para el elemento HTML seleccionado.\
-
+La propiedad <mark style="color:blue;">**`border-radius`**</mark> especifica el grado de redondez de las esquinas del borde a mostrar para el elemento HTML seleccionado.<br>
 
 Su sintaxis es la siguiente:
 

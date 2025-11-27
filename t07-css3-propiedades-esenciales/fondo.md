@@ -172,8 +172,7 @@ body {
 ### Método abreviado: <mark style="color:blue;">**`background`**</mark>
 
 La propiedad <mark style="color:blue;">**`background`**</mark> es un método abreviado que permite establecer el **color**, **imagen**, **repetición**, **fijación** y **posición** del fondo del elemento seleccionado mediante una única asignación.\
-El color se corresponde con la propiedad <mark style="color:blue;">**`background-color`**</mark>, la imagen con la propiedad <mark style="color:blue;">**`background-image`**</mark>, la repetición con la propiedad <mark style="color:blue;">**`background-repeat`**</mark>, la fijación con la propiedad <mark style="color:blue;">**`background-attachment`**</mark> y la posición con la propiedad <mark style="color:blue;">**`background-position`**</mark>.\
-
+El color se corresponde con la propiedad <mark style="color:blue;">**`background-color`**</mark>, la imagen con la propiedad <mark style="color:blue;">**`background-image`**</mark>, la repetición con la propiedad <mark style="color:blue;">**`background-repeat`**</mark>, la fijación con la propiedad <mark style="color:blue;">**`background-attachment`**</mark> y la posición con la propiedad <mark style="color:blue;">**`background-position`**</mark>.<br>
 
 Su sintaxis es la siguiente:
 

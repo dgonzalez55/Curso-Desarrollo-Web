@@ -1,7 +1,6 @@
 # Pseudoclases
 
-Las pseudoclases sirven para establecer estilos para determinados estados especiales de los elementos seleccionados, como por ejemplo dar un estilo específico al pasar el ratón por encima de un determinado elemento, modificar el color de la fuente tras visitar un enlace o modificar las propiedades de un control cuando éste recibe el foco.\
-
+Las pseudoclases sirven para establecer estilos para determinados estados especiales de los elementos seleccionados, como por ejemplo dar un estilo específico al pasar el ratón por encima de un determinado elemento, modificar el color de la fuente tras visitar un enlace o modificar las propiedades de un control cuando éste recibe el foco.<br>
 
 La sintaxi de una pseudoclase es:
 
