@@ -33,7 +33,7 @@
 * 4.3. Gestión profesional con `classList` (`add`, `remove`, `toggle`, `contains`)
 * 4.4. Manipulación de variables CSS (Custom Properties)
 
-### **🏗️ Capítulo 5: Creación e Inserción de Elementos**
+### **🏗️** [**Capítulo 5: Creación e Inserción de Elementos**](capitulo-5-creacion-e-insercion-de-elementos.md)
 
 * 5.1. El ciclo de vida: Crear, Configurar, Insertar
 * 5.2. `createElement()` y `createTextNode()`
@@ -42,14 +42,14 @@
 * 5.5. Eliminación de nodos: `remove()` y `removeChild()`
 * 5.6. `DocumentFragment`: Renderizado eficiente
 
-### **🧭 Capítulo 6: Navegación por el DOM (Traversing)**
+### **🧭** [**Capítulo 6: Navegación por el DOM (Traversing)**](capitulo-6-navegacion-por-el-dom-traversing.md)
 
 * 6.1. Navegar hacia los padres: `parentElement`, `closest`
 * 6.2. Navegar hacia los hijos: `children`, `firstElementChild`, `lastElementChild`
 * 6.3. Navegar entre hermanos: `nextElementSibling`, `previousElementSibling`
 * 6.4. Diferencia entre Elementos y Nodos (texto/comentarios)
 
-### **⚡ Capítulo 7: Introducción a los Eventos**
+### **⚡** [**Capítulo 7: Introducción a los Eventos**](capitulo-7-introduccion-a-los-eventos.md)
 
 * 7.1. ¿Qué es un evento? Modelo asíncrono básico
 * 7.2. `addEventListener`: La forma correcta de escuchar
@@ -57,7 +57,7 @@
 * 7.4. Eliminar eventos: `removeEventListener`
 * 7.5. El problema de `this` en los eventos y Arrow Functions
 
-### **🖱️ Capítulo 8: Eventos de Ratón y Teclado**
+### **🖱️** [**Capítulo 8: Eventos de Ratón y Teclado**](capitulo-8-eventos-de-raton-y-teclado.md)
 
 * 8.1. Ratón: `click`, `dblclick`, `mousedown`, `mouseup`
 * 8.2. Movimiento: `mousemove`, `mouseenter` vs `mouseover`
@@ -65,7 +65,7 @@
 * 8.4. Propiedades de teclado: `key` vs `code`
 * 8.5. Modificadores: `ctrlKey`, `shiftKey`, `altKey`
 
-### **📝 Capítulo 9: Formularios y sus Eventos**
+### **📝** [**Capítulo 9: Formularios y sus Eventos**](capitulo-9-formularios-y-sus-eventos.md)
 
 * 9.1. Acceso a formularios y elementos (`document.forms`)
 * 9.2. Eventos principales: `submit`, `input`, `change`, `focus`, `blur`
@@ -73,7 +73,7 @@
 * 9.4. Lectura de valores (`value`, `checked`)
 * 9.5. Objeto `FormData`: Procesamiento moderno de formularios
 
-### **🌊 Capítulo 10: El Flujo de Eventos (Propagation)**
+### **🌊** [**Capítulo 10: El Flujo de Eventos (Propagation)**](capitulo-10-el-flujo-de-eventos-propagation.md)
 
 * 10.1. Las 3 fases: Capturing, Target, Bubbling
 * 10.2. Entendiendo el Bubbling (Burbujeo)

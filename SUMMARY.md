@@ -107,3 +107,8 @@
   * [Capítulo 3: Lectura y Modificación de Contenido](t14-javascript-manipulacion-del-dom-y-eventos/capitulo-3-lectura-y-modificacion-de-contenido.md)
   * [Capítulo 4: Estilos CSS y Clases](t14-javascript-manipulacion-del-dom-y-eventos/capitulo-4-estilos-css-y-clases.md)
   * [Capítulo 5: Creación e Inserción de Elementos](t14-javascript-manipulacion-del-dom-y-eventos/capitulo-5-creacion-e-insercion-de-elementos.md)
+  * [Capítulo 6: Navegación por el DOM (Traversing)](t14-javascript-manipulacion-del-dom-y-eventos/capitulo-6-navegacion-por-el-dom-traversing.md)
+  * [Capítulo 7: Introducción a los Eventos](t14-javascript-manipulacion-del-dom-y-eventos/capitulo-7-introduccion-a-los-eventos.md)
+  * [Capítulo 8: Eventos de Ratón y Teclado](t14-javascript-manipulacion-del-dom-y-eventos/capitulo-8-eventos-de-raton-y-teclado.md)
+  * [Capítulo 9: Formularios y sus Eventos](t14-javascript-manipulacion-del-dom-y-eventos/capitulo-9-formularios-y-sus-eventos.md)
+  * [Capítulo 10: El Flujo de Eventos (Propagation)](t14-javascript-manipulacion-del-dom-y-eventos/capitulo-10-el-flujo-de-eventos-propagation.md)
