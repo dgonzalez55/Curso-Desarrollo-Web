@@ -1,10 +1,10 @@
 # Capítulo 3: Promesas
 
-Las Promesas son el pilar de la programación asíncrona moderna en JavaScript. Resuelven el problema del callback hell y proporcionan una forma clara y predecible de trabajar con operaciones asincrónicas. Este capítulo cubre todo lo que necesitas saber sobre Promesas.
+Las **promesas** son el pilar de la programación asíncrona moderna en JavaScript. Resuelven el problema del callback hell y proporcionan una forma clara y predecible de trabajar con operaciones asincrónicas. Este capítulo cubre todo lo que necesitas saber sobre Promesas.
 
-### 3.1. Creación de Promesas: `new Promise(executor)`
+### 3.1. Creación de promesas: `new Promise(executor)`
 
-Una Promesa es un objeto que representa una operación asíncrona que terminará en el futuro (o ha terminado ya).
+Una promesa es un objeto que representa una operación asíncrona que terminará en el futuro (o ha terminado ya).
 
 ```javascript
 // Sintaxis: new Promise((resolve, reject) => { ... })
@@ -41,7 +41,7 @@ function descargarArchivo(url) {
     });
 }
 
-// Las Promesas se crean al llamar a la función
+// Las promesas se crean al llamar a la función
 const descarga = descargarArchivo("https://example.com/archivo.pdf");
 console.log(descarga); // Promise { <pending> }
 ```
@@ -99,7 +99,7 @@ const promesa = new Promise((resolve, reject) => {
 
 ### 3.3. Métodos `.then()`, `.catch()`, `.finally()`
 
-Para trabajar con Promesas, usamos estos métodos para especificar qué hacer cuando se resuelvan o rechacen.
+Para trabajar con promesas, usamos estos métodos para especificar qué hacer cuando se resuelvan o rechacen.
 
 #### **`.then(onFulfilled, onRejected)`**
 
@@ -170,7 +170,7 @@ promesa
 
 ### 3.4. Promise chaining: Encadenar promesas
 
-La verdadera potencia de las Promesas es poder **encadenarlas** de forma clara sin callback hell.
+La verdadera potencia de las promesas es poder **encadenarlas** de forma clara sin callback hell.
 
 ```javascript
 function paso1() {
@@ -228,7 +228,7 @@ paso1()
 
 ### 3.5. Propagación de errores en cadenas
 
-Si alguna Promesa en la cadena se rechaza, el error se propaga automáticamente al siguiente `.catch()`.
+Si alguna promesa en la cadena se rechaza, el error se propaga automáticamente al siguiente `.catch()`.
 
 ```javascript
 function paso1() {
@@ -289,7 +289,7 @@ error.catch(e => console.error(e.message)); // "error"
 
 #### **Promesas perezosas (lazy):**
 
-Las Promesas comienzan a ejecutarse inmediatamente por defecto. Para hacer una "lazy Promise" que espere a ser evaluada, necesitas una función:
+Las promesas comienzan a ejecutarse inmediatamente por defecto. Para hacer una "lazy Promise" que espere a ser evaluada, necesitas una función:
 
 ```javascript
 // ❌ Eager: Se ejecuta inmediatamente
@@ -315,7 +315,7 @@ lazy().then(r => console.log(r)); // Ahora se ejecuta
 
 ### Resumen del Capítulo
 
-Las Promesas reemplazan los callbacks con una forma de manejar asincronía más legible y segura. El chaining de Promises permite escribir flujos secuenciales sin anidamiento profundo. Entender estados, `.then()`, `.catch()` y propagación de errores es fundamental para JavaScript asíncrono moderno.
+Las promesas reemplazan los callbacks con una forma de manejar asincronía más legible y segura. El chaining de Promises permite escribir flujos secuenciales sin anidamiento profundo. Entender estados, `.then()`, `.catch()` y propagación de errores es fundamental para JavaScript asíncrono moderno.
 
 #### **💡 Conceptos Clave:**
 
@@ -327,16 +327,16 @@ Las Promesas reemplazan los callbacks con una forma de manejar asincronía más 
 * **.finally()**: Se ejecuta siempre
 * **Promise chaining**: Encadenar operaciones sin callback hell
 * **Propagación de errores**: Los errores se propagan automáticamente
-* **Eager vs Lazy**: Las Promesas son eager por defecto (se ejecutan inmediatamente)
+* **Eager vs Lazy**: Las promesas son eager por defecto (se ejecutan inmediatamente)
 
 #### **🤔 Preguntas de Reflexión:**
 
-1. ¿Cuáles son los tres estados de una Promesa?
+1. ¿Cuáles son los tres estados de una promesa?
 2. ¿Cuál es la diferencia entre `.then()` y `.catch()`?
 3. ¿Por qué `.finally()` es útil incluso aunque retorne nada?
-4. ¿Cómo se propagan los errores en una cadena de Promesas?
-5. ¿Qué sucede si llamas `resolve` y luego `reject` en la misma Promesa?
-6. ¿Por qué es más legible una cadena de Promesas que callbacks anidados?
-7. Crea una Promesa que simule una descarga y encadena operaciones después.
+4. ¿Cómo se propagan los errores en una cadena de promesas?
+5. ¿Qué sucede si llamas `resolve` y luego `reject` en la misma promesa?
+6. ¿Por qué es más legible una cadena de promesas que callbacks anidados?
+7. Crea una promesa que simule una descarga y encadena operaciones después.
 
 ***

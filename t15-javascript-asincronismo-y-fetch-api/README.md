@@ -21,14 +21,14 @@
 
 #### **🤝** [**Capítulo 3: Promesas**](capitulo-3-promesas.md)
 
-* 3.1. Creación de Promesas: `new Promise(executor)`
+* 3.1. Creación de promesas: `new Promise(executor)`
 * 3.2. Estados: pending, fulfilled, rejected
 * 3.3. Métodos `.then()`, `.catch()`, `.finally()`
 * 3.4. Promise chaining: Encadenar promesas
 * 3.5. Propagación de errores en cadenas
 * 3.6. Promesas ya resueltas y perezosas
 
-#### **🎯** [**Capítulo 4: Combinación de Promesas**](capitulo-4-combinacion-de-promesas.md)
+#### **🎯** [**Capítulo 4: Combinación de promesas**](capitulo-4-combinacion-de-promesas.md)
 
 * 4.1. `Promise.all()`: Todas deben cumplirse
 * 4.2. `Promise.race()`: La primera que se resuelva
@@ -38,21 +38,24 @@
 
 #### **⚡** [**Capítulo 5: Async/Await**](capitulo-5-async-await.md)
 
-* 5.1. Funciones `async`: Definición y retorno implícito de Promesas
-* 5.2. La palabra clave `await`: Esperar una Promesa
+* 5.1. Funciones `async`: Definición y retorno implícito de promesas
+* 5.2. La palabra clave `await`: Esperar una promesa
 * 5.3. Equivalencia con `.then()` y por qué es más legible
 * 5.4. Manejo de errores: `try/catch` asíncrono
-* 5.5. Operaciones en paralelo vs secuencial con `async/await`
+* 5.5. Operaciones en paralelo vs secuencial con `async/await`&#x20;
+* 5.6. Arrow functions async
+* 5.7. Async IIFE (Immediately Invoked Function Expression)
 
-#### **🌐 Capítulo 6: Introducción a Fetch API**
+#### **🌐** [**Capítulo 6: Introducción a Fetch API**](capitulo-6-introduccion-a-fetch-api.md)
 
 * 6.1. ¿Qué es Fetch? Reemplazo moderno de `XMLHttpRequest`
 * 6.2. `fetch(url, options)`: Parámetros y objeto Response
 * 6.3. Peticiones GET: Obtener datos JSON
 * 6.4. Métodos del Response: `.json()`, `.text()`, `.blob()`
 * 6.5. Manejo de errores: Red vs HTTP status
+* 6.6. Ejemplo completo: Cargar datos y mostrar en consola
 
-#### **🚀 Capítulo 7: Fetch + Async/Await (Patrón Recomendado)**
+#### **🚀** [**Capítulo 7: Fetch + Async/Await (Patrón Recomendado)**](capitulo-7-fetch-+-async-await-patron-recomendado.md)
 
 * 7.1. Reescribir promesas con `async/await`
 * 7.2. Estructura típica: fetch → ok → json()

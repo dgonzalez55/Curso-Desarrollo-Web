@@ -1,10 +1,10 @@
-# Capítulo 4: Combinación de Promesas
+# Capítulo 4: Combinación de promesas
 
-A veces necesitas trabajar con múltiples Promesas simultáneamente: esperar a que todas se resuelvan, esperar a la más rápida, etc. Los **Promise combinators** son métodos estáticos que combinan múltiples Promesas en nuevas Promesas con comportamientos específicos.
+A veces necesitas trabajar con múltiples promesas simultáneamente: esperar a que todas se resuelvan, esperar a la más rápida, etc. Los **Promise combinators** son métodos estáticos que combinan múltiples promesas en nuevas promesas con comportamientos específicos.
 
 ### 4.1. `Promise.all()`: Todas deben cumplirse
 
-`Promise.all()` espera a que **TODAS** las Promesas se resuelvan. Si alguna se rechaza, falla todo.
+`Promise.all()` espera a que **TODAS** las promesas se resuelvan. Si alguna se rechaza, falla todo.
 
 ```javascript
 // Sintaxis: Promise.all([promesa1, promesa2, ...])
@@ -75,7 +75,7 @@ Para esto, usa `Promise.allSettled()` ([sección 4.3](capitulo-4-combinacion-de-
 
 ### 4.2. `Promise.race()`: La primera que se resuelva
 
-`Promise.race()` retorna **tan pronto como cualquier Promise** se resuelva o rechace. Las demás continúan pero se ignoran.
+`Promise.race()` retorna **tan pronto como cualquier promesa** se resuelva o rechace. Las demás continúan pero se ignoran.
 
 ```javascript
 const p1 = new Promise((resolve) => {
@@ -254,7 +254,7 @@ async function procesarDatos() {
 
 ### Resumen del Capítulo
 
-Los Promise combinators son herramientas poderosas para manejar múltiples operaciones asincrónicas. Usa `Promise.all()` cuando necesites que todas tengan éxito, `Promise.race()` para la más rápida, `Promise.allSettled()` cuando quieras resultados incluso si algunas fallan, y `Promise.any()` cuando necesites la primera que tenga éxito.
+Los _Promise combinators_ son herramientas poderosas para manejar múltiples operaciones asincrónicas. Usa `Promise.all()` cuando necesites que todas tengan éxito, `Promise.race()` para la más rápida, `Promise.allSettled()` cuando quieras resultados incluso si algunas fallan, y `Promise.any()` cuando necesites la primera que tenga éxito.
 
 #### **💡 Conceptos Clave:**
 
