@@ -28,7 +28,7 @@
 * 3.5. Propagación de errores en cadenas
 * 3.6. Promesas ya resueltas y perezosas
 
-#### **🎯 Capítulo 4: Combinación de Promesas**
+#### **🎯** [**Capítulo 4: Combinación de Promesas**](capitulo-4-combinacion-de-promesas.md)
 
 * 4.1. `Promise.all()`: Todas deben cumplirse
 * 4.2. `Promise.race()`: La primera que se resuelva
@@ -36,7 +36,7 @@
 * 4.4. `Promise.any()`: La primera que se cumpla (ES2021)
 * 4.5. Casos prácticos y combinaciones
 
-#### **⚡ Capítulo 5: Async/Await**
+#### **⚡** [**Capítulo 5: Async/Await**](capitulo-5-async-await.md)
 
 * 5.1. Funciones `async`: Definición y retorno implícito de Promesas
 * 5.2. La palabra clave `await`: Esperar una Promesa

@@ -119,3 +119,5 @@
   * [Capítulo 1: Introducción a la Asincronía](t15-javascript-asincronismo-y-fetch-api/capitulo-1-introduccion-a-la-asincronia.md)
   * [Capítulo 2: Callbacks](t15-javascript-asincronismo-y-fetch-api/capitulo-2-callbacks.md)
   * [Capítulo 3: Promesas](t15-javascript-asincronismo-y-fetch-api/capitulo-3-promesas.md)
+  * [Capítulo 4: Combinación de Promesas](t15-javascript-asincronismo-y-fetch-api/capitulo-4-combinacion-de-promesas.md)
+  * [Capítulo 5: Async/Await](t15-javascript-asincronismo-y-fetch-api/capitulo-5-async-await.md)
