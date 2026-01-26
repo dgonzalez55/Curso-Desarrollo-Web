@@ -65,13 +65,14 @@
 * 7.6. Patrón: Función reutilizable para fetch
 * 7.7. Peticiones simultáneas con `Promise.all`
 
-#### **📤 Capítulo 8: Peticiones POST/PUT/DELETE**
+#### **📤** [**Capítulo 8: Peticiones POST/PUT/DELETE**](capitulo-8-peticiones-post-put-delete.md)
 
 * 8.1. Configurar el objeto options en fetch
 * 8.2. Body: `JSON.stringify` y Content-Type
-* 8.3. Método POST: Enviar datos
-* 8.4. Métodos PUT y DELETE: Actualizar y eliminar
+* 8.3. Método `POST`: Enviar datos
+* 8.4. Métodos `PUT` y `DELETE`: Actualizar y eliminar
 * 8.5. Ejemplo completo: CRUD con una API
+* 8.6. Códigos de estado HTTP comunes
 
 #### **🎨 Capítulo 9: Integración con el DOM**
 
