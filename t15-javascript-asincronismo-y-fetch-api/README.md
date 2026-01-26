@@ -58,10 +58,12 @@
 #### **🚀** [**Capítulo 7: Fetch + Async/Await (Patrón Recomendado)**](capitulo-7-fetch-+-async-await-patron-recomendado.md)
 
 * 7.1. Reescribir promesas con `async/await`
-* 7.2. Estructura típica: fetch → ok → json()
+* 7.2. Estructura típica: `fetch` → `ok` → `json()`
 * 7.3. Manejo de errores con `try/catch`
 * 7.4. Casos prácticos: APIs públicas
 * 7.5. Depuración: Inspeccionar respuestas
+* 7.6. Patrón: Función reutilizable para fetch
+* 7.7. Peticiones simultáneas con `Promise.all`
 
 #### **📤 Capítulo 8: Peticiones POST/PUT/DELETE**
 
