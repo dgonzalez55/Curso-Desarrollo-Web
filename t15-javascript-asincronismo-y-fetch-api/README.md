@@ -82,7 +82,7 @@
 * 9.4. Patrón: Fetch → Procesar → Renderizar
 * 9.5. Actualizar la UI en tiempo real
 
-#### **🔄 Capítulo 10: Patrones Avanzados**
+#### **🔄** [**Capítulo 10: Patrones Avanzados**](capitulo-10-patrones-avanzados.md)
 
 * 10.1. AbortController: Cancelar peticiones
 * 10.2. Reintentos y backoff exponencial

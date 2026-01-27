@@ -125,3 +125,4 @@
   * [Capítulo 7: Fetch + Async/Await (Patrón Recomendado)](t15-javascript-asincronismo-y-fetch-api/capitulo-7-fetch-+-async-await-patron-recomendado.md)
   * [Capítulo 8: Peticiones POST/PUT/DELETE](t15-javascript-asincronismo-y-fetch-api/capitulo-8-peticiones-post-put-delete.md)
   * [Capítulo 9: Integración con el DOM](t15-javascript-asincronismo-y-fetch-api/capitulo-9-integracion-con-el-dom.md)
+  * [Capítulo 10: Patrones Avanzados](t15-javascript-asincronismo-y-fetch-api/capitulo-10-patrones-avanzados.md)
