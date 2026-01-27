@@ -68,13 +68,13 @@
 #### **📤** [**Capítulo 8: Peticiones POST/PUT/DELETE**](capitulo-8-peticiones-post-put-delete.md)
 
 * 8.1. Configurar el objeto options en fetch
-* 8.2. Body: `JSON.stringify` y Content-Type
+* 8.2. Body: `JSON.stringify` y `Content-Type`
 * 8.3. Método `POST`: Enviar datos
 * 8.4. Métodos `PUT` y `DELETE`: Actualizar y eliminar
 * 8.5. Ejemplo completo: CRUD con una API
 * 8.6. Códigos de estado HTTP comunes
 
-#### **🎨 Capítulo 9: Integración con el DOM**
+#### **🎨** [**Capítulo 9: Integración con el DOM**](capitulo-9-integracion-con-el-dom.md)
 
 * 9.1. Renderizar datos de una API en el DOM
 * 9.2. Indicadores de carga (spinners, loading state)
