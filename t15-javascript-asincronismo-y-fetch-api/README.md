@@ -86,11 +86,11 @@
 
 * 10.1. AbortController: Cancelar peticiones
 * 10.2. Reintentos y backoff exponencial
-* 10.3. Peticiones en paralelo: Promise.all con fetch
+* 10.3. Peticiones en paralelo: `Promise.all` con fetch
 * 10.4. Debouncing y throttling en búsquedas en vivo
 * 10.5. Caché simple: Evitar peticiones repetidas
 
-#### **✅ Capítulo 11: Buenas Prácticas**
+#### **✅** [**Capítulo 11: Buenas Prácticas**](capitulo-11-buenas-practicas.md)
 
 * 11.1. Centralizar llamadas a APIs (módulos)
 * 11.2. Manejo consistente de errores
@@ -98,10 +98,10 @@
 * 11.4. Testing de código asíncrono
 * 11.5. Evitar antipatrones comunes
 
-#### **🎯 Capítulo 12: Proyecto Integrador**
+#### **🎯** [**Capítulo 12: Proyecto Integrador**](capitulo-12-proyecto-integrador-dashboard-de-peliculas.md)
 
-* 12.1. Proyecto: Dashboard con múltiples APIs
-* 12.2. Estructura de la aplicación
-* 12.3. Integración con localStorage
-* 12.4. Gestión de estados (loading, error, success)
-* 12.5. Mejoras: filtrados, búsqueda, actualización
+* 12.1. Descripción del Proyecto
+* 12.2. Estructura del Proyecto
+* 12.3. HTML Base
+* 12.4. Módulos JavaScript
+* 12.5. CSS Básico

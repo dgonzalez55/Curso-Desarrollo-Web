@@ -126,3 +126,6 @@
   * [Capítulo 8: Peticiones POST/PUT/DELETE](t15-javascript-asincronismo-y-fetch-api/capitulo-8-peticiones-post-put-delete.md)
   * [Capítulo 9: Integración con el DOM](t15-javascript-asincronismo-y-fetch-api/capitulo-9-integracion-con-el-dom.md)
   * [Capítulo 10: Patrones Avanzados](t15-javascript-asincronismo-y-fetch-api/capitulo-10-patrones-avanzados.md)
+  * [Capítulo 11: Buenas Prácticas](t15-javascript-asincronismo-y-fetch-api/capitulo-11-buenas-practicas.md)
+  * [Capítulo 12: Proyecto Integrador - Dashboard de Películas](t15-javascript-asincronismo-y-fetch-api/capitulo-12-proyecto-integrador-dashboard-de-peliculas.md)
+  * [Resum Final](t15-javascript-asincronismo-y-fetch-api/resum-final.md)
